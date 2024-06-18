@@ -68,3 +68,5 @@ if st.button("Predict"):
         st.write("***Better Luck Next time !!!!...*** **You're probably ended up like 'Jack'**")
         st.image('Rip.jfif')
         st.write("**Survival Probability Chances :** 'NO': {}%  'YES': {}% ".format(round((proba[0,0])*100,2), round((proba[0,1])*100,2)))
+if st.button("Author"):
+    st.write("Mohammad Hamim - 202280090114")
